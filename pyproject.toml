@@ -5,7 +5,9 @@ description = "Add your description here"
 authors = [
     { name = "Jamie Place", email = "jamieplace95@gmail.com" }
 ]
-dependencies = []
+dependencies = [
+    "kaggle>=1.6.17",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
