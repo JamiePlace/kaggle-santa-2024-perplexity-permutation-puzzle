@@ -23,4 +23,4 @@ dev-dependencies = []
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/kaggle_santa_2024_perplexity_permutation_puzzle"]
+packages = ["src/santa_24"]
