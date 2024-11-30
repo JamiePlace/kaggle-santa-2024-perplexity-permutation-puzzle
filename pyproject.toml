@@ -1,0 +1,24 @@
+[project]
+name = "kaggle-santa-2024-perplexity-permutation-puzzle"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Jamie Place", email = "jamieplace95@gmail.com" }
+]
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kaggle_santa_2024_perplexity_permutation_puzzle"]
