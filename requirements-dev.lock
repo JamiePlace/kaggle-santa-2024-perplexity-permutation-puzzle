@@ -10,6 +10,10 @@
 #   universal: false
 
 -e file:.
+accelerate==1.1.1
+    # via transformers
+black==24.10.0
+    # via kaggle-santa-2024-perplexity-permutation-puzzle
 bleach==6.2.0
     # via kaggle
 certifi==2024.8.30
@@ -17,23 +21,129 @@ certifi==2024.8.30
     # via requests
 charset-normalizer==3.4.0
     # via requests
+click==8.1.7
+    # via black
+filelock==3.16.1
+    # via huggingface-hub
+    # via torch
+    # via transformers
+    # via triton
+fsspec==2024.10.0
+    # via huggingface-hub
+    # via torch
+huggingface-hub==0.26.3
+    # via accelerate
+    # via tokenizers
+    # via transformers
 idna==3.10
     # via requests
+jinja2==3.1.4
+    # via torch
 kaggle==1.6.17
     # via kaggle-santa-2024-perplexity-permutation-puzzle
+markupsafe==3.0.2
+    # via jinja2
+mpmath==1.3.0
+    # via sympy
+mypy-extensions==1.0.0
+    # via black
+networkx==3.4.2
+    # via torch
+numpy==2.1.3
+    # via accelerate
+    # via kaggle-santa-2024-perplexity-permutation-puzzle
+    # via pandas
+    # via transformers
+nvidia-cublas-cu12==12.4.5.8
+    # via nvidia-cudnn-cu12
+    # via nvidia-cusolver-cu12
+    # via torch
+nvidia-cuda-cupti-cu12==12.4.127
+    # via torch
+nvidia-cuda-nvrtc-cu12==12.4.127
+    # via torch
+nvidia-cuda-runtime-cu12==12.4.127
+    # via torch
+nvidia-cudnn-cu12==9.1.0.70
+    # via torch
+nvidia-cufft-cu12==11.2.1.3
+    # via torch
+nvidia-curand-cu12==10.3.5.147
+    # via torch
+nvidia-cusolver-cu12==11.6.1.9
+    # via torch
+nvidia-cusparse-cu12==12.3.1.170
+    # via nvidia-cusolver-cu12
+    # via torch
+nvidia-nccl-cu12==2.21.5
+    # via torch
+nvidia-nvjitlink-cu12==12.4.127
+    # via nvidia-cusolver-cu12
+    # via nvidia-cusparse-cu12
+    # via torch
+nvidia-nvtx-cu12==12.4.127
+    # via torch
+packaging==24.2
+    # via accelerate
+    # via black
+    # via huggingface-hub
+    # via transformers
+pandas==2.2.3
+    # via kaggle-santa-2024-perplexity-permutation-puzzle
+pathspec==0.12.1
+    # via black
+platformdirs==4.3.6
+    # via black
+psutil==6.1.0
+    # via accelerate
 python-dateutil==2.9.0.post0
     # via kaggle
+    # via pandas
 python-slugify==8.0.4
     # via kaggle
+pytz==2024.2
+    # via pandas
+pyyaml==6.0.2
+    # via accelerate
+    # via huggingface-hub
+    # via transformers
+regex==2024.11.6
+    # via transformers
 requests==2.32.3
+    # via huggingface-hub
     # via kaggle
+    # via transformers
+safetensors==0.4.5
+    # via accelerate
+    # via transformers
 six==1.16.0
     # via kaggle
     # via python-dateutil
+sympy==1.13.1
+    # via torch
 text-unidecode==1.3
     # via python-slugify
+tokenizers==0.20.3
+    # via transformers
+tomli==2.2.1
+    # via black
+torch==2.5.1
+    # via accelerate
+    # via transformers
 tqdm==4.67.1
+    # via huggingface-hub
     # via kaggle
+    # via transformers
+transformers==4.46.3
+    # via kaggle-santa-2024-perplexity-permutation-puzzle
+triton==3.1.0
+    # via torch
+typing-extensions==4.12.2
+    # via black
+    # via huggingface-hub
+    # via torch
+tzdata==2024.2
+    # via pandas
 urllib3==2.2.3
     # via kaggle
     # via requests
